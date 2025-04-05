@@ -1,0 +1,9 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@*/.Runtime/* filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+* text=auto
+*.cs text
+*.txt text
+*.md text
